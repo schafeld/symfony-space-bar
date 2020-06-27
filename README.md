@@ -16,13 +16,6 @@ Install Symfony 4 boilerplate
 
 `composer create-project symfony/skeleton my_project_name '4.4.*'`
 
-Run a local PHP server
-
-`php -S 127.0.0.1:8000 -t public`
-
-or for local development just
-
-`php -S 127.0.0.1:8080`
 
 Put project under version control
 
@@ -42,3 +35,21 @@ git push -f origin master
 git branch --set-upstream-to=origin/master  master
 git push
 ```
+
+### Install a (better) local server
+
+You can run a local PHP server
+
+`php -S 127.0.0.1:8000 -t public`
+
+or for local development just
+
+`php -S 127.0.0.1:8080`
+
+But after
+
+`composer require server`
+
+there's a _better_ server at your disposal which is started like this:
+
+`bin/console server:run`
