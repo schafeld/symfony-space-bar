@@ -35,7 +35,7 @@ git commit -m "initial commit"
 
 # create Github project repository "my_project_repo"
 
-git remote add origin git@github.com:my_github_repo_name/my_project_repo_name.git
+git remote add origin git@github.com:my_github_account_name/my_project_repo_name.git
 remote -v
 git push -f origin master
 
