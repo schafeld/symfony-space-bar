@@ -1,5 +1,5 @@
 <?php
-
+// 'front controller' entry point
 use App\Kernel;
 use Symfony\Component\ErrorHandler\Debug;
 use Symfony\Component\HttpFoundation\Request;
