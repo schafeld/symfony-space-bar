@@ -53,3 +53,9 @@ But after
 there's a _better_ server at your disposal which is started like this:
 
 `bin/console server:run`
+
+### Add tools
+
+For more comfortable route creation via annotation:
+
+`composer require annotations`
